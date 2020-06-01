@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="riddle0">
+        <item>@string/Q7</item>
+        <item>1</item>
+        <item>@string/Q7A1</item>
+        <item>@string/Q7A2</item>
+        <item>@string/Q7A3</item>
+        <item>@string/Q7A4</item>
+    </string-array>
+    <string-array name="riddle1">
+        <item>@string/Q8</item>
+        <item>0</item>
+        <item>@string/Q8A1</item>
+        <item>@string/Q8A2</item>
+        <item>@string/Q8A3</item>
+        <item>@string/Q8A4</item>
+    </string-array>
+    <string-array name="riddle2">
+        <item>@string/Q3</item>
+        <item>3</item>
+        <item>@string/Q3A1</item>
+        <item>@string/Q3A2</item>
+        <item>@string/Q3A3</item>
+        <item>@string/Q3A4</item>
+    </string-array>
+    <string-array name="riddle3">
+        <item>@string/Q4</item>
+        <item>3</item>
+        <item>@string/Q4A1</item>
+        <item>@string/Q4A2</item>
+        <item>@string/Q4A3</item>
+        <item>@string/Q4A4</item>
+    </string-array>
+    <string-array name="riddle4">
+        <item>@string/Q5</item>
+        <item>2</item>
+        <item>@string/Q5A1</item>
+        <item>@string/Q5A2</item>
+        <item>@string/Q5A3</item>
+        <item>@string/Q5A4</item>
+    </string-array>
+    <string-array name="riddle5">
+        <item>@string/Q6</item>
+        <item>2</item>
+        <item>@string/Q6A1</item>
+        <item>@string/Q6A2</item>
+        <item>@string/Q6A3</item>
+        <item>@string/Q6A4</item>
+    </string-array>
+    <string-array name="easyTrivia0">
+        <item>@string/Q11</item>
+        <item>3</item>
+        <item>@string/Q11A1</item>
+        <item>@string/Q11A2</item>
+        <item>@string/Q11A3</item>
+        <item>@string/Q11A4</item>
+    </string-array>
+    <string-array name="easyTrivia1">
+        <item>@string/Q12</item>
+        <item>0</item>
+        <item>@string/Q12A1</item>
+        <item>@string/Q12A2</item>
+        <item>@string/Q12A3</item>
+        <item>@string/Q12A4</item>
+    </string-array>
+    <string-array name="easyTrivia2">
+        <item>@string/Q14</item>
+        <item>2</item>
+        <item>@string/Q14A1</item>
+        <item>@string/Q14A2</item>
+        <item>@string/Q14A3</item>
+        <item>@string/Q14A4</item>
+    </string-array>
+    <string-array name="easyTrivia3">
+        <item>@string/Q15</item>
+        <item>2</item>
+        <item>@string/Q15A1</item>
+        <item>@string/Q15A2</item>
+        <item>@string/Q15A3</item>
+        <item>@string/Q15A4</item>
+    </string-array>
+    <string-array name="easyTrivia4">
+        <item>@string/Q17</item>
+        <item>1</item>
+        <item>@string/Q17A1</item>
+        <item>@string/Q17A2</item>
+        <item>@string/Q17A3</item>
+        <item>@string/Q17A4</item>
+    </string-array>
+    <string-array name="easyTrivia5">
+        <item>@string/Q18</item>
+        <item>2</item>
+        <item>@string/Q18A1</item>
+        <item>@string/Q18A2</item>
+        <item>@string/Q18A3</item>
+        <item>@string/Q18A4</item>
+    </string-array>
+    <string-array name="hardTrivia0">
+        <item>@string/Q1</item>
+        <item>1</item>
+        <item>@string/Q1A1</item>
+        <item>@string/Q1A2</item>
+        <item>@string/Q1A3</item>
+        <item>@string/Q1A4</item>
+    </string-array>
+    <string-array name="hardTrivia1">
+        <item>@string/Q2</item>
+        <item>0</item>
+        <item>@string/Q2A1</item>
+        <item>@string/Q2A2</item>
+        <item>@string/Q2A3</item>
+        <item>@string/Q2A4</item>
+    </string-array>
+    <string-array name="hardTrivia2">
+        <item>@string/Q13</item>
+        <item>0</item>
+        <item>@string/Q13A1</item>
+        <item>@string/Q13A2</item>
+        <item>@string/Q13A3</item>
+        <item>@string/Q13A4</item>
+    </string-array>
+    <string-array name="hardTrivia3">
+        <item>@string/Q9</item>
+        <item>0</item>
+        <item>@string/Q9A1</item>
+        <item>@string/Q9A2</item>
+        <item>@string/Q9A3</item>
+        <item>@string/Q9A4</item>
+    </string-array>
+    <string-array name="hardTrivia4">
+        <item>@string/Q10</item>
+        <item>1</item>
+        <item>@string/Q10A1</item>
+        <item>@string/Q10A2</item>
+        <item>@string/Q10A3</item>
+        <item>@string/Q10A4</item>
+    </string-array>
+    <string-array name="hardTrivia5">
+        <item>@string/Q16</item>
+        <item>1</item>
+        <item>@string/Q16A1</item>
+        <item>@string/Q16A2</item>
+        <item>@string/Q16A3</item>
+        <item>@string/Q16A4</item>
+    </string-array>
+    <integer name="numArrays">6</integer>
+</resources>

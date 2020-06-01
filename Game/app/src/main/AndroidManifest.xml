@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewLevel.game2.RiddleActivity" />
+        <activity android:name=".GameEnd" />
+        <activity android:name=".GameOver" />
+        <activity android:name=".viewLevel.game3.Game3ExitActivity" />
+        <activity android:name=".viewLevel.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viewLevel.game1.GameOverActivity" />
+        <activity
+            android:name=".viewLevel.game3.Game3PlayActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".viewLevel.game1.BallJumperActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".viewLevel.game2.Game2Activity" />
+        <activity android:name=".viewLevel.game2.Win" />
+        <activity android:name=".viewLevel.game3.Game3Activity" />
+        <activity android:name=".viewLevel.game1.Game1Activity" />
+        <activity android:name=".viewLevel.CreateAccountActivity" />
+        <activity android:name=".viewLevel.OptionsActivity" />
+        <activity android:name=".viewLevel.MainActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".viewLevel.ScoreboardActivity" />
+    </application>
+
+</manifest>

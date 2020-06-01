@@ -1,0 +1,38 @@
+Dear group_0627
+
+This semester, we talked about MVP, the Model-View-Presenter architecture. It has many advantages, particularly when working with Android. As you can see from your project, your activity classes have methods that are specific to Android. If you encapsulate the rest of your code sufficiently, it is possible to port it to another platform simply by creating a new UI (for example, a website).
+
+Encapsulation can take on many forms. You can package your View classes together. You can ensure that your dependencies go one-way, towards the inner more abstract layers. You can incorporate SOLID principles as much as possible and design patterns where they make sense.
+Here is feedback that is specific to your project:
+
+You made good use of…
++ SOLID principles
++ Abstractions (e.g. OrientationDataFactory)
++ Logic in some of the methods can be delegated using helper methods (Game 1).
++ MVP pattern(entire project)
++ Factory Pattern (OrientationDataFactory)
++ Facade (for presenters)
++ Interfaces (e.g. game 1)
++ Make efficient usage of sharedpreferences and GSON to keep track of temporary and persistent data.
+
+
+The user sees…
++ Options to change color and language.
++ The user gets to change their player icons which are reflected in the scoreboard.
++ Every game provides 3 levels of difficulties
++ Tilt mechanism in game 1
+
+A good next step would be to…
++ Have javadocs for all your interfaces/classes/variables (eg. ActivityDataUseCases class)
++ Database access code can use helper methods.
++ (Optional) The Scoreboard feature can be improved by providing another button on the home screen to check the scoreboard. To provide a more detailed scoreboard you can display scores specific to the current user and scores of all the users, maybe in the form of a leaderboard. This includes making the leaderboard (which pops up at the end of the game) available in the main menu.
++ Several features have a good amount of code in both model and view but have almost no presenter code. One such example is the “Scoreboard” functionality where the “addScore" method is a part of the model. Consider how you would want to separate this code so that you can easily add new features later.
++ Class Scoreboard saves directly to a file. You should apply dependency inversion to adhere to Clean Architecture.
++ Class AccountHolder is in the model but directly uses File objects. This should also be refactored.
++“Lives” in Game 1 and “Lives” as a general statistic between each game currently refer to different statistics. Can be made consistent as it is not intuitive for the user.
+
+We hope that you enjoyed working on this project and found it a useful learning experience.
+
+Cheers,
+The CSC207 Instructional Team
+
